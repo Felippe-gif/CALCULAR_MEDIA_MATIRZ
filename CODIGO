@@ -1,0 +1,21 @@
+def calcular_media(aluno):
+    soma = 0
+    for nota in aluno:
+        soma += nota
+        return soma / len(aluno)
+    
+aluno = [5.5, 7.0, 8.7]
+aluno1 = [8.0, 6.0, 9,3]
+aluno2 =[6.7, 7.8, 5.9]
+aluno3 = [4.5, 7.8, 6.7]
+
+media = calcular_media(aluno)
+media1 = calcular_media(aluno1)
+media2 = calcular_media(aluno2)
+media3= calcular_media(aluno3)
+
+
+print(f'{media:.2f}')
+print(f'{media1:.2f}')
+print(f'{media2:.2f}')
+print(f'{media3:.2f}')
