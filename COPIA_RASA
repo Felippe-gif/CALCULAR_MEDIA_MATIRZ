@@ -1,0 +1,14 @@
+def copia_rasa(matriz):
+    return matriz[:]
+
+original = [[1, 2, 3],
+            [22, 5, 6],
+            [33, 45, 8],
+            [44, 65, 6]]
+
+copia = copia_rasa(original)
+
+copia[2][2] = 33
+
+print(f'ORIGINAL : {original}')
+print(f'COPIA: {copia}')
